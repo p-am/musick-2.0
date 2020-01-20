@@ -1,0 +1,72 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+.cabecera,
+#cuerpo {
+    position: relative;
+    margin: 8rem auto;
+    font-family: 'Bahianita', cursive;
+    letter-spacing: 2px;
+}
+
+form > input,
+form > button {
+    letter-spacing: 2px;
+    font-size: 1.2rem !important;
+}
+
+h5, h6 {
+    font-family: 'Emilys Candy', cursive;
+}
+
+.numeroCancion {
+    width: 4rem;
+}
+
+nav > a:first-of-type {
+    outline: none;
+    cursor: auto;
+}
+
+#navbar_home {
+    cursor: pointer;
+}
+
+.icono-album {
+    font-size: 4rem;
+}
+
+button,
+.card,
+.card-header {
+    letter-spacing: 2px;
+}
+
+#rec .card,
+#ten .card,
+#nov .card {
+    width: 16rem;
+}
+
+#ten,
+#nov {
+    display: none;
+}
+
+#navbarSupportedContent {
+    flex-basis: -moz-available;
+}
+
+#alb button,
+#bibl button {
+    cursor: auto;
+}
+
+#alb i,
+#bibl i,
+#desplegableAlbumnes {
+    cursor: pointer;
+}
+
